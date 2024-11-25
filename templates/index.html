@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+    <title>Airport Flight Country Statistics</title>
+</head>
+<body>
+    <h1>Enter Airport Code</h1>
+    {% if error %}
+    <p style="color:red;">{{ error }}</p>
+    {% endif %}
+    <form method="post">
+        <label for="airport_code">Airport Code (3 letters):</label>
+        <input type="text" id="airport_code" name="airport_code" maxlength="3" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

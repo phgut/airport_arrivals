@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <title>Results for {{ airport_code }}</title>
+</head>
+<body>
+    <h1>Flight Counts by Country for Airport {{ airport_code }}</h1>
+    <table border="1">
+        <tr>
+            <th>Country</th>
+            <th>Number of Flights</th>
+        </tr>
+        {% for country, count in country_counts %}
+        <tr>
+            <td>{{ country }}</td>
+            <td>{{ count }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/">Back</a>
+</body>
+</html>
