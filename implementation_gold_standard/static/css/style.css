@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+  
+  .form-group {
+    margin-bottom: 1em;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 200px;
+    text-transform: uppercase;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover, button:focus {
+    background-color: #0056b3;
+  }
+  
+  .help-text {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .message-area {
+    margin-top: 1em;
+    min-height: 2em; 
+  }
+  
+  .results-container {
+    margin-top: 1em;
+    overflow-x: auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 1em;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  @media (max-width: 600px) {
+    table, th, td {
+      font-size: 14px;
+    }
+  }
+  
