@@ -1,0 +1,10 @@
+pydantic-settings
+fastapi[standard]
+tortoise-orm
+asyncpg
+python-jose[cryptography]
+python-multipart
+bcrypt
+motor>=3.3.1
+redis>=5.0.1
+requests
